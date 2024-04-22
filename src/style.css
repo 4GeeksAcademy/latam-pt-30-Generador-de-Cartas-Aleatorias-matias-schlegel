@@ -1,1 +1,37 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background-color: #242424;
+  color: #242424;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: aliceblue;
+  width: 200px;
+  height: 300px;
+  font-size: 50px;
+}
+
+.num {
+  /*height: 100%;*/
+  margin-top: 60px;
+  display: flex;
+  justify-content: center; 
+  /*align-items: center;*/
+}
+
+.icon {
+  padding-left: 10px;
+}
+
+.icon2 {
+  height: 40%;
+  display: flex;
+  justify-content: end; 
+  align-items: end;
+  margin-right: 10px;
+}

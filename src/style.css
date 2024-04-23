@@ -16,7 +16,7 @@ body {
   font-size: 50px;
 }
 
-.num {
+#numeroAleatorio {
   /*height: 100%;*/
   margin-top: 60px;
   display: flex;
@@ -24,11 +24,11 @@ body {
   /*align-items: center;*/
 }
 
-.icon {
+#random {
   padding-left: 10px;
 }
 
-.icon2 {
+#randomIcon2 {
   height: 40%;
   display: flex;
   justify-content: end; 

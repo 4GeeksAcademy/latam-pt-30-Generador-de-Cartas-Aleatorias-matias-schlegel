@@ -1,6 +1,7 @@
 let icons = ["♦", "♥", "♠", "♣"];
+let corazon = icons[1];
 
-window.onload = function getRandomIcon() {
+let functoin = (window.onload = function getRandomIcon() {
   let container = document.createElement("div");
   container.classList.add("container");
 
@@ -18,10 +19,15 @@ window.onload = function getRandomIcon() {
   let randomIcon2 = icons[Math.floor(Math.random() * icons.length)];
   document.querySelector("#randomIcon2").innerHTML = random;
 
+  if (random === corazon || randomIcon2 === corazon) {
+    document.querySelector("#random").style.color = "red";
+    document.querySelector("#randomIcon2").style.color = "red";
+  } //cuando actulizo la pagina aveces se cambian otros signos de color (no sé por qué)
+
   let num = document.createElement("div");
   num.id = "numeroAleatorio";
   container.append(num);
-};
+});
 
 // ya generamos el icono aleatorio
 // ahora hay que generar el número aleatorio

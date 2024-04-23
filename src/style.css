@@ -14,24 +14,25 @@ body {
   width: 200px;
   height: 300px;
   font-size: 50px;
+  border-radius: 4%;
 }
 
 #numeroAleatorio {
   /*height: 100%;*/
   margin-top: 60px;
   display: flex;
-  justify-content: center; 
+  justify-content: center;
   /*align-items: center;*/
 }
 
 #random {
   padding-left: 10px;
+  transition: 1s linear;
 }
 
 #randomIcon2 {
   height: 40%;
-  display: flex;
-  justify-content: end; 
-  align-items: end;
   margin-right: 10px;
+  transform: rotate(180deg);
+  transition: 1s linear;
 }
